@@ -10,5 +10,5 @@ MKCASTPATH="$(pwd)/mkcast"
 NEWCASTPATH="$(pwd)/newcast"
 
 cd /usr/local/bin
-ln -s $MKCASTPATH mkcast
-ln -s $NEWCASTPATH newcast
+ln -s --force $MKCASTPATH mkcast
+ln -s --force $NEWCASTPATH newcast
